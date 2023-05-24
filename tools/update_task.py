@@ -22,5 +22,5 @@ if __name__ == "__main__":
     summary = input("Enter summary: ")
     description = input("Enter description: ")
     is_active = input("0 for inactive, 1 for active: ")
-    pk = input("Enter id:")
+    pk = input("Enter id: ")
     update_task(summary, description, is_active, pk)
